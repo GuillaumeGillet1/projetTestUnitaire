@@ -9,5 +9,7 @@ def build_model():
     model = LinearRegression()
     model.fit(X, y)
     joblib.dump(model, "regression.joblib")
-     
+    
+        
+    
 build_model()
